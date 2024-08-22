@@ -1,0 +1,41 @@
+.search-bar{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  }
+.display{
+  display: flex;
+}
+input{
+  background: none;
+  border: none;
+  outline: none;
+  font-size: medium;
+  font-style: italic;
+  font-weight: 500;
+}
+.conditions{
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+ 
+}
+.box{
+  padding: 6px;
+  text-align: center;
+}
+.forecast{
+  display: flex;
+  /* grid-template-columns: auto; */
+}
+.seven-day{
+}
+.day{
+  display: flex;
+  padding: 10px;
+  border-radius: 20px;
+}
+.thirddiv{
+  background-color: #422e70;
+}
