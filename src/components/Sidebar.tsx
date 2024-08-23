@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Cloud } from 'lucide-react';
 import './Sidebar.css'
 
@@ -12,10 +12,22 @@ const Sidebar: React.FC = () => {
             </div> 
       <nav>
         <ul>
-          <li><Link to="/">Weather</Link></li>
-          <li><Link to="/cities">Cities</Link></li>
-          <li><Link to="/maps">Maps</Link></li>
-          <li><Link to="/setting">Settings</Link></li>
+          <li><NavLink to="/" className="sidebar-link" >
+            <i className="icon-map"></i>
+            <span>Weather</span>
+          </NavLink></li>
+          <li><NavLink to="/cities" className="sidebar-link">
+            <i className="icon-cities"></i>
+            <span>Cities</span>
+          </NavLink></li>
+          <li><NavLink to="/maps" className="sidebar-link">
+            <i className="icon-map"></i>
+            <span>Map</span>
+          </NavLink></li>
+          <li><NavLink to="/setting" className="sidebar-link">
+            <i className="icon-settings"></i>
+            <span>Settings</span>
+          </NavLink></li>
         </ul>
       </nav>
         </div>

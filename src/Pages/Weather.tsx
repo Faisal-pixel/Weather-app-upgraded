@@ -5,12 +5,11 @@ import { Search, Sun, CloudRain, CloudLightning, CloudSunRain, Thermometer, SunD
 const Weather: React.FC = () => {
     return(
         <div className="search-bar">
-          <div>
+          <div className="seconddiv">
             <div>
             <div className="display">
             <form>
               <input
-                // type="search"
                 name="search"
                 id="search"
                 placeholder="Search for Cities..."
@@ -18,7 +17,7 @@ const Weather: React.FC = () => {
             </form>
             <Search/>
             </div>
-            <div>
+            <div className="city">
             <h1>
                 YOUR CITY
                 </h1>
@@ -52,6 +51,11 @@ const Weather: React.FC = () => {
                         <p>0°C</p>
                     </div>
                     <div className="box">
+                        <p>4PM</p>
+                        <Sun/>
+                        <p>0°C</p>
+                    </div>
+                    <div className="box">
                         <p>6PM</p>
                         <Sun/>
                         <p>0°C</p>
@@ -68,37 +72,37 @@ const Weather: React.FC = () => {
                     </div>
                     <div className="box">
                     <SunDim/>
-                    <p>10AM</p>
+                    <p>UV Index</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Wind</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Visibility</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Pressure</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Sunset</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Humidity</p>
                     <p>0°C</p>
                     </div>
                     <div className="box">
                     <Thermometer />
-                    <p>Feels Like</p>
+                    <p>Chance of Rain</p>
                     <p>0°C</p>
                     </div>
                 </div>

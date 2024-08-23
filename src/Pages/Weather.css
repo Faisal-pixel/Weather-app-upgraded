@@ -1,10 +1,20 @@
 .search-bar{
-  padding: 20px;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}
+.seconddiv{
+  width: 750px;
+}
+.display{
+  background-color: #5e5b68;
+  border-radius: 10px;
+  /* padding: 5px; */
   display: flex;
   justify-content: space-between;
-  }
-.display{
-  display: flex;
+}
+.city{
+  line-height: 15px;
 }
 input{
   background: none;
@@ -14,17 +24,12 @@ input{
   font-style: italic;
   font-weight: 500;
   color: wheat;
-
-}
-.air-conditions{
-  /* line-height: 20px; */
 }
 .conditions{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   display: grid;
- 
 }
 .box{
   padding: 6px;
@@ -32,7 +37,7 @@ input{
 }
 .forecast{
   display: flex;
-  /* grid-template-columns: auto; */
+  justify-content: space-around;
 }
 .seven-days{
 }
@@ -44,5 +49,9 @@ input{
 }
 .thirddiv{
   background-color: #422e70;
+  padding: 20px;
+  top: 0;
+  left: 0;
   border-radius: 20px;
+  width: 250px;
 }
