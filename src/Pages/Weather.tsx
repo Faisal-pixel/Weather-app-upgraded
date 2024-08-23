@@ -58,55 +58,55 @@ const Weather: React.FC = () => {
                     </div>
                 </div>
                 </div>
-                <div className="r">
+                <div className="air-conditions">
                     <h5>AIR CONDITIONS</h5>
                     <div className="conditions">
                     <div className="box">
                     <Thermometer />
                     <p>Feels Like</p>
-                        <p>0°C</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <SunDim/>
-                        <p>10AM</p>
-                        <p>0°C</p>
+                    <SunDim/>
+                    <p>10AM</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>12PM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>2PM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>10AM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>12PM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>2PM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                     <div className="box">
-                        <p>6PM</p>
-                        <Sun/>
-                        <p>0°C</p>
+                    <Thermometer />
+                    <p>Feels Like</p>
+                    <p>0°C</p>
                     </div>
                 </div>
                 </div>
           </div>
           <div className="thirddiv">
             <h4>7-Day Forecast</h4>
-            <div className="seven-day">
+            <div className="seven-days">
                     <div className="day">
                         <p>Monday</p>
                         <Sun/>

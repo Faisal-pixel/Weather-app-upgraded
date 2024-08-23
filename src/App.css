@@ -1,8 +1,13 @@
 .app-container{
   display: flex;
   /* justify-content: space-between; */
+  max-height: 100vh;
 }
 body{
   background-color: rgb(5, 5, 17);
   color: wheat;
+}
+.content{
+  width: 100%;
+  overflow-y: scroll;
 }
