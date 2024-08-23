@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './App.css';
-import Sidebar from './Components/Sidebar';
+import Sidebar from './components/Sidebar';
 import Maps from './Pages/Maps'
 import Cities from './Pages/Cities'
 import Weather from './Pages/Weather'
