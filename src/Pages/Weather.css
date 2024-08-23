@@ -13,6 +13,11 @@ input{
   font-size: medium;
   font-style: italic;
   font-weight: 500;
+  color: wheat;
+
+}
+.air-conditions{
+  /* line-height: 20px; */
 }
 .conditions{
   grid-template-columns: repeat(4, 1fr);
@@ -29,13 +34,15 @@ input{
   display: flex;
   /* grid-template-columns: auto; */
 }
-.seven-day{
+.seven-days{
 }
 .day{
   display: flex;
   padding: 10px;
-  border-radius: 20px;
+  text-align: center;
+  justify-content: space-around;
 }
 .thirddiv{
   background-color: #422e70;
+  border-radius: 20px;
 }
