@@ -2,9 +2,12 @@
 padding: 20px;
 display: flex;
 justify-content: space-around;
+max-height: 100vh;
 }
 .seconddiv{
   width: 750px;
+  max-height: 100%;
+  overflow-y: scroll;
 }
 .display{
   background-color: #5e5b68;
@@ -13,9 +16,32 @@ justify-content: space-around;
   display: flex;
   justify-content: space-between;
 }
+
+.display form {
+  width: 100%;
+  display: flex;
+}
+
+.display form button {
+  background-color: #5e5b68;
+  border: none;
+  border-radius: 10px;
+}
+.city-display {
+  display: flex;
+}
 .city{
   line-height: 15px;
+  flex-grow: 2;
 }
+
+.weather-icon {
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 input{
   background: none;
   border: none;
@@ -24,6 +50,10 @@ input{
   font-style: italic;
   font-weight: 500;
   color: wheat;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 .conditions{
   grid-template-columns: repeat(4, 1fr);
@@ -54,4 +84,5 @@ input{
   left: 0;
   border-radius: 20px;
   width: 250px;
+  overflow-y: scroll;
 }
