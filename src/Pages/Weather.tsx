@@ -18,16 +18,16 @@ const Weather: React.FC = () => {
             <Search/>
             </div>
             <div className="city">
-            <h1>
+            <h3>
                 YOUR CITY
-                </h1>
+                </h3>
                 <p>Chances of rain: % </p>
                 <p>°C</p>
                 </div>
                 </div>
+                <div className="firstdiv">
                 <div>
-                <div>
-                <h5>TOMORROW'S FORECAST</h5>
+                <h6>TOMORROW'S FORECAST</h6>
                 </div>
                 <div className="forecast">
                     <div className="box">
@@ -63,7 +63,7 @@ const Weather: React.FC = () => {
                 </div>
                 </div>
                 <div className="air-conditions">
-                    <h5>AIR CONDITIONS</h5>
+                    <h6>AIR CONDITIONS</h6>
                     <div className="conditions">
                     <div className="box">
                     <Thermometer />

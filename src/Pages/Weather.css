@@ -1,7 +1,6 @@
 .search-bar{
 padding: 20px;
 display: flex;
-justify-content: space-around;
 }
 .seconddiv{
   width: 750px;
@@ -9,7 +8,6 @@ justify-content: space-around;
 .display{
   background-color: #5e5b68;
   border-radius: 10px;
-  /* padding: 5px; */
   display: flex;
   justify-content: space-between;
 }
@@ -25,6 +23,11 @@ input{
   font-weight: 500;
   color: wheat;
 }
+/* .air-conditions{
+  background-color: #e7a3e7;
+  padding: 20px;
+  border-radius: 20px;
+} */
 .conditions{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -35,6 +38,11 @@ input{
   padding: 6px;
   text-align: center;
 }
+/* .firstdiv{
+  background-color: #422e70;
+  padding-top: 20px;
+  border-radius: 20px;
+} */
 .forecast{
   display: flex;
   justify-content: space-around;
@@ -48,7 +56,7 @@ input{
   justify-content: space-around;
 }
 .thirddiv{
-  background-color: #422e70;
+  background-color: #2d263f;
   padding: 20px;
   top: 0;
   left: 0;
